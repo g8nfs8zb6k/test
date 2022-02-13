@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>リアルタイム保存 | TWIVIDEO(test2)</title>
+<meta name="description" content="みんながダウンロード保存した新着のツイッター動画 | TWIVIDEOは、ツイッターから動画やGIFをダウンロードして保存するための無料オンラインツール、Twitter Video Downloaderです。" />
+<meta name="keywords" content="twivideo,twidouga,twitter保存ランキング,ツイッター動画ダウンロード,ツイッター動画保存," />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" crossorigin="anonymous">
+
+<!--
+<link rel="stylesheet" href="https://twivideo.net/templates/style.css?ver=20220115110003" type="text/css">
+-->
+
+<link rel="stylesheet" href="https://g8nfs8zb6k.github.io/test/style.css" type="text/css">
+
+<link rel="icon" href="https://twivideo.net/templates/images/icon.ico">
+<link rel="apple-touch-icon" href="https://twivideo.net/templates/images/icon.png">
+<script src="https://unpkg.com/infinite-scroll@3/dist/infinite-scroll.pkgd.min.js"></script>
+<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+<script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lazyload@2.0.0-rc.2/lazyload.min.js"></script>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MHTDM4D');</script>
+<!-- End Google Tag Manager -->
+	
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MHTDM4D"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<header>
+<div class="container">
+	<div class="site_title">
+		<h1><a href="https://twivideo.net/">TWIVIDEO</a></h1>
+	</div>
+</div>
+</header>
+
+<div class="head_menu">
+<div class="container">
+	<ul class="nav nav-pills nav-justified">
+		<li class="nav-item">
+			 <a href="https://g8nfs8zb6k.github.io/test" class="nav-link bg-menu color-white"><span>保存</span></a>
+		</li>
+		<li class="nav-item">
+			 <a href="https://g8nfs8zb6k.github.io/test/ranking" class="nav-link bg-menu color-white"><span>ランキング(24時間)</span></a>
+		</li>
+		<li class="nav-item">
+			 <a href="https://g8nfs8zb6k.github.io/test/ranking(3d)" class="nav-link bg-menu color-white"><span>ランキング(3日間)</span></a>
+		</li>
+		<li class="nav-item">
+			<a href="https://g8nfs8zb6k.github.io/test/ranking(1w)" class="nav-link bg-menu color-white"><span>ランキング(1週間)</span></a>			 
+		</li>
+	</ul>
+</div>
+</div>
+<div class="main_content">
+<div class="container">
+
+	<div class="content_area margin_area text_center">
+
+<h2 class="page"> Twitter動画（新着DL）  </h2>
+<div class="explanation">みんながダウンロード保存した新着のツイッター動画 </div>
+
+
+
+<!-- adspace-->
+
+
+		<div class="grids">
+		<div class="art_li">
+	<div class="item_inner">
+		<div class="item_image">
+			<a href="https://video.twimg.com/ext_tw_video/1324122695143813126/pu/vid/720x960/r6aqGczGTr_7lVbo.mp4?tag=10" class="item_link" data-id="1996249" target="_blank">
+			<img src="https://pbs.twimg.com/ext_tw_video_thumb/1481854224199667713/pu/img/S09Gdwg_g4MrkkVL.jpg" width="150" height="200" alt="">
+			</a>
+		</div>
+		
+		<div style="position:absolute;right:1px;top:1px;"><a href="https://twitter.com/kanade_x_x1227/status/1481854352285265921" target="_blank"><img src="https://twivideo.net/templates/images/twil.png" style="width:25px;height:25px;" alt=""></a></div>
+		
+		
+	</div>
+</div>
+<div class="art_li">
+	<div class="item_inner">
+		<div class="item_image">
+			<a href="https://video.twimg.com/ext_tw_video/1324122695143813126/pu/vid/720x960/r6aqGczGTr_7lVbo.mp4?tag=10" class="item_link" data-id="2000330" target="_blank">
+			<img src="https://pbs.twimg.com/ext_tw_video_thumb/1324122695143813126/pu/img/1fYVQk1bUU2tvDXP.jpg" width="150" height="200" alt="">
+			</a>
+		</div>
+		
+		<div style="position:absolute;right:1px;top:1px;"><a href="https://twitter.com/japangiirl/status/1475760948275146755/" target="_blank"><img src="https://twivideo.net/templates/images/twil.png" style="width:25px;height:25px;" alt=""></a></div>
+		
+		
+	</div>
+</div>
+<div class="art_li">
+	<div class="item_inner">
+		<div class="item_image">
+			<a href="https://video.twimg.com/ext_tw_video/1324122695143813126/pu/vid/720x960/r6aqGczGTr_7lVbo.mp4?tag=10" class="item_link" data-id="2000329" target="_blank">
+			<img src="https://pbs.twimg.com/ext_tw_video_thumb/1324122695143813126/pu/img/1fYVQk1bUU2tvDXP.jpg" width="150" height="200" alt="">
+			</a>
+		</div>
+		
+		<div style="position:absolute;right:1px;top:1px;"><a href="https://twitter.com/qingdeng22/status/1449025241372508161/" target="_blank"><img src="https://twivideo.net/templates/images/twil.png" style="width:25px;height:25px;" alt=""></a></div>
+		
+		
+	</div>
+</div>
+<div class="art_li">
+	<div class="item_inner">
+		<div class="item_image">
+			<a href="https://video.twimg.com/ext_tw_video/1324122695143813126/pu/vid/720x960/r6aqGczGTr_7lVbo.mp4?tag=10" class="item_link" data-id="2000328" target="_blank">
+			<img src="https://pbs.twimg.com/ext_tw_video_thumb/1324122695143813126/pu/img/1fYVQk1bUU2tvDXP.jpg" width="150" height="200" alt="">
+			</a>
+		</div>
+		
+		<div style="position:absolute;right:1px;top:1px;"><a href="https://twitter.com/xC9yuLW9sExEKFF/status/1479999865682038785" target="_blank"><img src="https://twivideo.net/templates/images/twil.png" style="width:25px;height:25px;" alt=""></a></div>
+		
+		
+	</div>
+</div>
+<div class="art_li">
+	<div class="item_inner">
+		<div class="item_image">
+			<a href="https://video.twimg.com/ext_tw_video/1324122695143813126/pu/vid/720x960/r6aqGczGTr_7lVbo.mp4?tag=10" class="item_link" data-id="2000327" target="_blank">
+			<img src="https://pbs.twimg.com/ext_tw_video_thumb/1324122695143813126/pu/img/1fYVQk1bUU2tvDXP.jpg" width="150" height="200" alt="">
+			</a>
+		</div>
+		
+		<div style="position:absolute;right:1px;top:1px;"><a href="https://twitter.com/ruisenhoukaino/status/1314408250654171136/" target="_blank"><img src="https://twivideo.net/templates/images/twil.png" style="width:25px;height:25px;" alt=""></a></div>
+		
+		
+	</div>
+</div>
+<div class="art_li">
+	<div class="item_inner">
+		<div class="item_image">
+			<a href="https://video.twimg.com/ext_tw_video/1482015205668581378/pu/vid/1280x720/mGH6xpbfv8rkXnzk.mp4?tag=12" class="item_link" data-id="2000326" target="_blank">
+			<img src="https://pbs.twimg.com/ext_tw_video_thumb/1324122695143813126/pu/img/1fYVQk1bUU2tvDXP.jpg" width="150" height="200" alt="">
+			</a>
+		</div>
+		
+		<div style="position:absolute;right:1px;top:1px;"><a href="https://twitter.com/Fetish_man8/status/1482015386224951296" target="_blank"><img src="https://twivideo.net/templates/images/twil.png" style="width:25px;height:25px;" alt=""></a></div>
+		
+		
+	</div>
+</div>
+<div class="art_li">
+	<div class="item_inner">
+		<div class="item_image">
+			<a href="https://video.twimg.com/ext_tw_video/1475835844548308993/pu/vid/856x482/hPaCxFSq55gDanF-.mp4?tag=12" class="item_link" data-id="1898180" target="_blank">
+			<img src="https://pbs.twimg.com/ext_tw_video_thumb/1324122695143813126/pu/img/1fYVQk1bUU2tvDXP.jpg" width="150" height="200" alt="">
+			</a>
+		</div>
+		
+		<div style="position:absolute;right:1px;top:1px;"><a href="https://twitter.com/nukitender/status/1475836126543945732" target="_blank"><img src="https://twivideo.net/templates/images/twil.png" style="width:25px;height:25px;" alt=""></a></div>
+		
+		
+	</div>
+</div>
+<div class="art_li">
+	<div class="item_inner">
+		<div class="item_image">
+			<a href="https://video.twimg.com/ext_tw_video/1480679144799481857/pu/vid/268x480/irJpEdIjQHX_KQbC.mp4?tag=12" class="item_link" data-id="2000325" target="_blank">
+			<img src="https://pbs.twimg.com/ext_tw_video_thumb/1324122695143813126/pu/img/1fYVQk1bUU2tvDXP.jpg" width="150" height="200" alt="">
+			</a>
+		</div>
+		
+		<div style="position:absolute;right:1px;top:1px;"><a href="https://twitter.com/xC9yuLW9sExEKFF/status/1480679309904084992" target="_blank"><img src="https://twivideo.net/templates/images/twil.png" style="width:25px;height:25px;" alt=""></a></div>
+		
+		
+	</div>
+</div>
+<div class="art_li">
+	<div class="item_inner">
+		<div class="item_image">
+			<a href="https://video.twimg.com/ext_tw_video/1329016123921027072/pu/vid/720x720/QG64IWj1vAf4JzhV.mp4?tag=10" class="item_link" data-id="2000323" target="_blank">
+			<img src="https://pbs.twimg.com/ext_tw_video_thumb/1329016123921027072/pu/img/HZOvjGqn5AfImFVj.jpg" width="150" height="200" alt="">
+			</a>
+		</div>
+		
+		<div style="position:absolute;right:1px;top:1px;"><a href="https://twitter.com/kandnamidamov/status/1329016172109459459/" target="_blank"><img src="https://twivideo.net/templates/images/twil.png" style="width:25px;height:25px;" alt=""></a></div>
+		
+		
+	</div>
+</div>
+<div class="art_li">
+	<div class="item_inner">
+		<div class="item_image">
+			<a href="https://video.twimg.com/ext_tw_video/1324122695143813126/pu/vid/720x960/r6aqGczGTr_7lVbo.mp4?tag=10" class="item_link" data-id="2000324" target="_blank">
+			<img src="https://pbs.twimg.com/ext_tw_video_thumb/1324122695143813126/pu/img/1fYVQk1bUU2tvDXP.jpg" width="150" height="200" alt="">
+			</a>
+		</div>
+		
+		<div style="position:absolute;right:1px;top:1px;"><a href="https://twitter.com/burlesque_rpg/status/1324122746033381376/" target="_blank"><img src="https://twivideo.net/templates/images/twil.png" style="width:25px;height:25px;" alt=""></a></div>
+		
+		
+	</div>
+</div>
+<div class="art_li">
+	<div class="item_inner">
+		<div class="item_image">
+			<a href="https://video.twimg.com/ext_tw_video/1470312247087886336/pu/vid/856x480/InJ6O_k-ouhCPCno.mp4?tag=12" class="item_link" data-id="2000322" target="_blank">
+			<img src="https://pbs.twimg.com/ext_tw_video_thumb/1470312247087886336/pu/img/jYjnSk1gevq0_iGl.jpg" width="150" height="200" alt="">
+			</a>
+		</div>
+		
+		<div style="position:absolute;right:1px;top:1px;"><a href="https://twitter.com/saorou1/status/1470312836144394241/" target="_blank"><img src="https://twivideo.net/templates/images/twil.png" style="width:25px;height:25px;" alt=""></a></div>
+		
+		
+	</div>
+</div>
+<div class="art_li">
+	<div class="item_inner">
+		<div class="item_image">
+			<a href="https://video.twimg.com/ext_tw_video/1162726729036681217/pu/vid/480x480/8uLSj3X4iT8RwtiR.mp4?tag=10" class="item_link" data-id="2000321" target="_blank">
+			<img src="https://pbs.twimg.com/ext_tw_video_thumb/1162726729036681217/pu/img/5E686idb2CKHM6fL.jpg" width="150" height="200" alt="">
+			</a>
+		</div>
+		
+		<div style="position:absolute;right:1px;top:1px;"><a href="https://twitter.com/cutest_animal1/status/1332885142709227521/" target="_blank"><img src="https://twivideo.net/templates/images/twil.png" style="width:25px;height:25px;" alt=""></a></div>
+		
+		
+	</div>
+</div>
+<div class="art_li">
+	<div class="item_inner">
+		<div class="item_image">
+			<a href="https://video.twimg.com/ext_tw_video/1456203417094090752/pu/vid/400x240/5qI0_KHcs2qIt92q.mp4?tag=12" class="item_link" data-id="2000320" target="_blank">
+			<img src="https://pbs.twimg.com/ext_tw_video_thumb/1456203417094090752/pu/img/M9oOnon8VoF9DeRq.jpg" width="150" height="200" alt="">
+			</a>
+		</div>
+		
+		<div style="position:absolute;right:1px;top:1px;"><a href="https://twitter.com/nanami7nanami/status/1456203502359769097" target="_blank"><img src="https://twivideo.net/templates/images/twil.png" style="width:25px;height:25px;" alt=""></a></div>
+		
+		
+	</div>
+</div>
+<div class="art_li">
+	<div class="item_inner">
+		<div class="item_image">
+			<a href="https://video.twimg.com/ext_tw_video/1479390579637518339/pu/vid/576x1024/2sVAlLTkj9wT0lH8.mp4?tag=12" class="item_link" data-id="2000319" target="_blank">
+			<img src="https://pbs.twimg.com/ext_tw_video_thumb/1479390579637518339/pu/img/Ir2YayQxQxPkkygp.jpg" width="150" height="200" alt="">
+			</a>
+		</div>
+		
+		<div style="position:absolute;right:1px;top:1px;"><a href="https://twitter.com/japangiirl/status/1479390610687926275/" target="_blank"><img src="https://twivideo.net/templates/images/twil.png" style="width:25px;height:25px;" alt=""></a></div>
+		
+		
+	</div>
+</div>
+<div class="art_li">
+	<div class="item_inner">
+		<div class="item_image">
+			<a href="https://video.twimg.com/ext_tw_video/1438853441304944640/pu/vid/856x482/InppCBJ8eUP1h5hb.mp4?tag=12" class="item_link" data-id="2000318" target="_blank">
+			<img src="https://pbs.twimg.com/ext_tw_video_thumb/1438853441304944640/pu/img/mUUzTcTsLM1tUvSQ.jpg" width="150" height="200" alt="">
+			</a>
+		</div>
+		
+		<div style="position:absolute;right:1px;top:1px;"><a href="https://twitter.com/penne27436851/status/1438853522628374528/" target="_blank"><img src="https://twivideo.net/templates/images/twil.png" style="width:25px;height:25px;" alt=""></a></div>
+		
+		
+	</div>
+</div>
+<div class="art_li">
+	<div class="item_inner">
+		<div class="item_image">
+			<a href="https://video.twimg.com/ext_tw_video/1463459285430849536/pu/vid/640x360/mUP4m7rwYjHxz3FM.mp4?tag=12" class="item_link" data-id="2000317" target="_blank">
+			<img src="https://pbs.twimg.com/ext_tw_video_thumb/1463459285430849536/pu/img/GZ-DaXEkmrBi1ccU.jpg" width="150" height="200" alt="">
+			</a>
+		</div>
+		
+		<div style="position:absolute;right:1px;top:1px;"><a href="https://twitter.com/nanami7nanami/status/1463459309397094400" target="_blank"><img src="https://twivideo.net/templates/images/twil.png" style="width:25px;height:25px;" alt=""></a></div>
+		
+		
+	</div>
+</div>
+<div class="art_li">
+	<div class="item_inner">
+		<div class="item_image">
+			<a href="https://video.twimg.com/ext_tw_video/1354713312726945795/pu/vid/640x480/myYVgQqxGx0Um69r.mp4?tag=10" class="item_link" data-id="2000316" target="_blank">
+			<img src="https://pbs.twimg.com/ext_tw_video_thumb/1354713312726945795/pu/img/1q3exisjvN0uceRo.jpg" width="150" height="200" alt="">
+			</a>
+		</div>
+		
+		<div style="position:absolute;right:1px;top:1px;"><a href="https://twitter.com/LCHeaven/status/1354715847193976832/" target="_blank"><img src="https://twivideo.net/templates/images/twil.png" style="width:25px;height:25px;" alt=""></a></div>
+		
+		
+	</div>
+</div>
+<div class="art_li">
+	<div class="item_inner">
+		<div class="item_image">
+			<a href="https://video.twimg.com/amplify_video/1467579707814477824/vid/960x720/_IUiP5mxIyAhXSng.mp4?tag=14" class="item_link" data-id="2000315" target="_blank">
+			<img src="https://pbs.twimg.com/amplify_video_thumb/1467579707814477824/img/aRkzrnBukCp7iPaK.jpg" width="150" height="200" alt="">
+			</a>
+		</div>
+		
+		<div style="position:absolute;right:1px;top:1px;"><a href="https://twitter.com/HhaPxx/status/1468583895234924548/" target="_blank"><img src="https://twivideo.net/templates/images/twil.png" style="width:25px;height:25px;" alt=""></a></div>
+		
+		
+	</div>
+</div>
+<div class="art_li">
+	<div class="item_inner">
+		<div class="item_image">
+			<a href="https://video.twimg.com/ext_tw_video/1465870188549898240/pu/vid/960x540/MXP-C5yTC7MA6snS.mp4?tag=12" class="item_link" data-id="2000314" target="_blank">
+			<img src="https://pbs.twimg.com/ext_tw_video_thumb/1465870188549898240/pu/img/fKzmQ5ASsQOGcUSh.jpg" width="150" height="200" alt="">
+			</a>
+		</div>
+		
+		<div style="position:absolute;right:1px;top:1px;"><a href="https://twitter.com/paisuler/status/1465870358632824832/" target="_blank"><img src="https://twivideo.net/templates/images/twil.png" style="width:25px;height:25px;" alt=""></a></div>
+		
+		
+	</div>
+</div>
+<div class="art_li">
+	<div class="item_inner">
+		<div class="item_image">
+			<a href="https://video.twimg.com/ext_tw_video/1457301983489105921/pu/vid/720x896/W_Fep_RGuevPJIc3.mp4?tag=12" class="item_link" data-id="2000313" target="_blank">
+			<img src="https://pbs.twimg.com/ext_tw_video_thumb/1457301983489105921/pu/img/SN7vKSb0JpdMGj8E.jpg" width="150" height="200" alt="">
+			</a>
+		</div>
+		
+		<div style="position:absolute;right:1px;top:1px;"><a href="https://twitter.com/fuhentetsu/status/1458038131517648900/" target="_blank"><img src="https://twivideo.net/templates/images/twil.png" style="width:25px;height:25px;" alt=""></a></div>
+		
+		
+	</div>
+</div>
+<div class="art_li">
+	<div class="item_inner">
+		<div class="item_image">
+			<a href="https://video.twimg.com/ext_tw_video/1323790187197919235/pu/vid/1280x720/DaaOQYeBccmGvc4z.mp4?tag=10" class="item_link" data-id="2000312" target="_blank">
+			<img src="https://pbs.twimg.com/ext_tw_video_thumb/1323790187197919235/pu/img/-i3d1U-Ztvlm8f0D.jpg" width="150" height="200" alt="">
+			</a>
+		</div>
+		
+		<div style="position:absolute;right:1px;top:1px;"><a href="https://twitter.com/kandnamidamov/status/1323790229816274945/" target="_blank"><img src="https://twivideo.net/templates/images/twil.png" style="width:25px;height:25px;" alt=""></a></div>
+		
+		
+	</div>
+</div>
+<div class="art_li">
+	<div class="item_inner">
+		<div class="item_image">
+			<a href="https://video.twimg.com/ext_tw_video/1434690663438696448/pu/vid/1280x720/zr2GZ0hcXsn7qOXC.mp4?tag=12" class="item_link" data-id="2000311" target="_blank">
+			<img src="https://pbs.twimg.com/ext_tw_video_thumb/1434690663438696448/pu/img/FLt9A3EnggVSweP1.jpg" width="150" height="200" alt="">
+			</a>
+		</div>
+		
+		<div style="position:absolute;right:1px;top:1px;"><a href="https://twitter.com/highest3_15/status/1480743709922979845/" target="_blank"><img src="https://twivideo.net/templates/images/twil.png" style="width:25px;height:25px;" alt=""></a></div>
+		
+		
+	</div>
+</div>
+<div class="art_li">
+	<div class="item_inner">
+		<div class="item_image">
+			<a href="https://video.twimg.com/ext_tw_video/1420000888047882242/pu/vid/568x320/80yakPQvv8QqyAmb.mp4?tag=12" class="item_link" data-id="2000310" target="_blank">
+			<img src="https://pbs.twimg.com/ext_tw_video_thumb/1420000888047882242/pu/img/-F_Vq0_jP_jwMkFz.jpg" width="150" height="200" alt="">
+			</a>
+		</div>
+		
+		<div style="position:absolute;right:1px;top:1px;"><a href="https://twitter.com/paisuler/status/1420150253681004545/" target="_blank"><img src="https://twivideo.net/templates/images/twil.png" style="width:25px;height:25px;" alt=""></a></div>
+		
+		
+	</div>
+</div>
+<div class="art_li">
+	<div class="item_inner">
+		<div class="item_image">
+			<a href="https://video.twimg.com/ext_tw_video/1377559069045649408/pu/vid/720x404/KvkaotWIKiuTfvGz.mp4?tag=12" class="item_link" data-id="2000309" target="_blank">
+			<img src="https://pbs.twimg.com/ext_tw_video_thumb/1377559069045649408/pu/img/C73pB_QtTeCSBd0K.jpg" width="150" height="200" alt="">
+			</a>
+		</div>
+		
+		<div style="position:absolute;right:1px;top:1px;"><a href="https://twitter.com/eroiojisandazo/status/1377559152239669253/" target="_blank"><img src="https://twivideo.net/templates/images/twil.png" style="width:25px;height:25px;" alt=""></a></div>
+		
+		
+	</div>
+</div>
+<div class="art_li">
+	<div class="item_inner">
+		<div class="item_image">
+			<a href="https://video.twimg.com/ext_tw_video/1436361884064649225/pu/vid/720x720/3aIu3YAVd0vrW5Xi.mp4?tag=12" class="item_link" data-id="2000307" target="_blank">
+			<img src="https://pbs.twimg.com/ext_tw_video_thumb/1436361884064649225/pu/img/fjiPgDywWxe8igIb.jpg" width="150" height="200" alt="">
+			</a>
+		</div>
+		
+		<div style="position:absolute;right:1px;top:1px;"><a href="https://twitter.com/chanpon1129/status/1436361909779910660/" target="_blank"><img src="https://twivideo.net/templates/images/twil.png" style="width:25px;height:25px;" alt=""></a></div>
+		
+		
+	</div>
+</div>
+<div class="art_li">
+	<div class="item_inner">
+		<div class="item_image">
+			<a href="https://video.twimg.com/ext_tw_video/1469522167972831232/pu/vid/1280x720/jqmaBMYyyVgQYfMq.mp4?tag=12" class="item_link" data-id="2000308" target="_blank">
+			<img src="https://pbs.twimg.com/ext_tw_video_thumb/1469522167972831232/pu/img/grKh5MEs5UenPyL-.jpg" width="150" height="200" alt="">
+			</a>
+		</div>
+		
+		<div style="position:absolute;right:1px;top:1px;"><a href="https://twitter.com/penne27436851/status/1469522283341705217/" target="_blank"><img src="https://twivideo.net/templates/images/twil.png" style="width:25px;height:25px;" alt=""></a></div>
+		
+		
+	</div>
+</div>
+<div class="art_li">
+	<div class="item_inner">
+		<div class="item_image">
+			<a href="https://video.twimg.com/ext_tw_video/1432632200235651073/pu/vid/720x956/xYCnPDVvCHH5xWkN.mp4?tag=12" class="item_link" data-id="2000306" target="_blank">
+			<img src="https://pbs.twimg.com/ext_tw_video_thumb/1432632200235651073/pu/img/OenFfyEpUVNDyI9z.jpg" width="150" height="200" alt="">
+			</a>
+		</div>
+		
+		<div style="position:absolute;right:1px;top:1px;"><a href="https://twitter.com/bjxk91/status/1432632981202477063/" target="_blank"><img src="https://twivideo.net/templates/images/twil.png" style="width:25px;height:25px;" alt=""></a></div>
+		
+		
+	</div>
+</div>
+<div class="art_li">
+	<div class="item_inner">
+		<div class="item_image">
+			<a href="https://video.twimg.com/amplify_video/1456781576621096960/vid/720x404/Gqs5tVOQMR0I20gm.mp4?tag=14" class="item_link" data-id="2000305" target="_blank">
+			<img src="https://pbs.twimg.com/media/FDeH2N1VgAA7fRW.jpg" width="150" height="200" alt="">
+			</a>
+		</div>
+		
+		<div style="position:absolute;right:1px;top:1px;"><a href="https://twitter.com/nitalive_PR/status/1456789176922279942/" target="_blank"><img src="https://twivideo.net/templates/images/twil.png" style="width:25px;height:25px;" alt=""></a></div>
+		
+		
+	</div>
+</div>
+<div class="art_li">
+	<div class="item_inner">
+		<div class="item_image">
+			<a href="https://video.twimg.com/ext_tw_video/1474690804841172993/pu/vid/1280x720/2h8Ek-JCSxi06Jfy.mp4?tag=12" class="item_link" data-id="1942716" target="_blank">
+			<img src="https://pbs.twimg.com/ext_tw_video_thumb/1474690804841172993/pu/img/CJgLRzXSO9pWvzsy.jpg" width="150" height="200" alt="">
+			</a>
+		</div>
+		
+		<div style="position:absolute;right:1px;top:1px;"><a href="https://twitter.com/nukitender/status/1474692144329854980" target="_blank"><img src="https://twivideo.net/templates/images/twil.png" style="width:25px;height:25px;" alt=""></a></div>
+		
+		
+	</div>
+</div>
+<div class="art_li">
+	<div class="item_inner">
+		<div class="item_image">
+			<a href="https://video.twimg.com/ext_tw_video/1426763957776179202/pu/vid/720x1280/XSKGwzYuw7LiYdWl.mp4?tag=12" class="item_link" data-id="2000303" target="_blank">
+			<img src="https://pbs.twimg.com/ext_tw_video_thumb/1426763957776179202/pu/img/eLRlvjmf6eGwkBS6.jpg" width="150" height="200" alt="">
+			</a>
+		</div>
+		
+		<div style="position:absolute;right:1px;top:1px;"><a href="https://twitter.com/yumiaomiao55/status/1426764602595938307/" target="_blank"><img src="https://twivideo.net/templates/images/twil.png" style="width:25px;height:25px;" alt=""></a></div>
+		
+		
+	</div>
+</div>
+<div class="art_li">
+	<div class="item_inner">
+		<div class="item_image">
+			<a href="https://video.twimg.com/ext_tw_video/1459227702503043072/pu/vid/884x664/npfxWf0Mex2JQ5TU.mp4?tag=12" class="item_link" data-id="2000304" target="_blank">
+			<img src="https://pbs.twimg.com/ext_tw_video_thumb/1459227702503043072/pu/img/KPNQR2Qc4m4wo3rR.jpg" width="150" height="200" alt="">
+			</a>
+		</div>
+		
+		<div style="position:absolute;right:1px;top:1px;"><a href="https://twitter.com/ko_yatsu/status/1459227944346292226/" target="_blank"><img src="https://twivideo.net/templates/images/twil.png" style="width:25px;height:25px;" alt=""></a></div>
+		
+		
+	</div>
+</div>
+<div class="art_li">
+	<div class="item_inner">
+		<div class="item_image">
+			<a href="https://video.twimg.com/ext_tw_video/1481987222010314752/pu/vid/1280x720/DUWu0fCHVVFCt6Qn.mp4?tag=12" class="item_link" data-id="2000302" target="_blank">
+			<img src="https://pbs.twimg.com/ext_tw_video_thumb/1481987222010314752/pu/img/J3WNT0RWAAA4Xf6j.jpg" width="150" height="200" alt="">
+			</a>
+		</div>
+		
+		<div style="position:absolute;right:1px;top:1px;"><a href="https://twitter.com/DarknessX00/status/1481989452855717888" target="_blank"><img src="https://twivideo.net/templates/images/twil.png" style="width:25px;height:25px;" alt=""></a></div>
+		
+		
+	</div>
+</div>
+<div class="art_li">
+	<div class="item_inner">
+		<div class="item_image">
+			<a href="https://video.twimg.com/ext_tw_video/1368585494716551170/pu/vid/544x718/ATXuAg0oTy_gt7hC.mp4?tag=12" class="item_link" data-id="2000301" target="_blank">
+			<img src="https://pbs.twimg.com/ext_tw_video_thumb/1368585494716551170/pu/img/kmEymDnvGXX2QeGt.jpg" width="150" height="200" alt="">
+			</a>
+		</div>
+		
+		<div style="position:absolute;right:1px;top:1px;"><a href="https://twitter.com/joker_ning/status/1368585658432774144/" target="_blank"><img src="https://twivideo.net/templates/images/twil.png" style="width:25px;height:25px;" alt=""></a></div>
+		
+		
+	</div>
+</div>
+<div class="art_li">
+	<div class="item_inner">
+		<div class="item_image">
+			<a href="https://video.twimg.com/ext_tw_video/1477554965032103937/pu/vid/576x1024/JZAjQXqbyim02jlT.mp4?tag=12" class="item_link" data-id="2000300" target="_blank">
+			<img src="https://pbs.twimg.com/ext_tw_video_thumb/1477554965032103937/pu/img/4tBbD0W0DvFyrfwm.jpg" width="150" height="200" alt="">
+			</a>
+		</div>
+		
+		<div style="position:absolute;right:1px;top:1px;"><a href="https://twitter.com/japangiirl/status/1477555011626618885/" target="_blank"><img src="https://twivideo.net/templates/images/twil.png" style="width:25px;height:25px;" alt=""></a></div>
+		
+		
+	</div>
+</div>
+<div class="art_li">
+	<div class="item_inner">
+		<div class="item_image">
+			<a href="https://video.twimg.com/ext_tw_video/1469677484652171271/pu/vid/960x540/JQWRDrL5JvRONlFL.mp4?tag=12" class="item_link" data-id="2000299" target="_blank">
+			<img src="https://pbs.twimg.com/ext_tw_video_thumb/1469677484652171271/pu/img/6E6SDfwaiceleokD.jpg" width="150" height="200" alt="">
+			</a>
+		</div>
+		
+		<div style="position:absolute;right:1px;top:1px;"><a href="https://twitter.com/paisuler/status/1469677781411934214/" target="_blank"><img src="https://twivideo.net/templates/images/twil.png" style="width:25px;height:25px;" alt=""></a></div>
+		
+		
+	</div>
+</div>
+<div class="art_li">
+	<div class="item_inner">
+		<div class="item_image">
+			<a href="https://video.twimg.com/ext_tw_video/1229060606059134976/pu/vid/720x1272/6tlpnUO1lsf1dJe2.mp4?tag=10" class="item_link" data-id="1998118" target="_blank">
+			<img src="https://pbs.twimg.com/ext_tw_video_thumb/1229060606059134976/pu/img/IbUPgEu6aBbO2E5G.jpg" width="150" height="200" alt="">
+			</a>
+		</div>
+		
+		<div style="position:absolute;right:1px;top:1px;"><a href="https://twitter.com/oredekachin17/status/1229060722581102592" target="_blank"><img src="https://twivideo.net/templates/images/twil.png" style="width:25px;height:25px;" alt=""></a></div>
+		
+		
+	</div>
+</div>
+<div class="art_li">
+	<div class="item_inner">
+		<div class="item_image">
+			<a href="https://video.twimg.com/ext_tw_video/1482033248717131781/pu/vid/1280x720/yRZ8fHZYOSGjWSad.mp4?tag=12" class="item_link" data-id="1998609" target="_blank">
+			<img src="https://pbs.twimg.com/ext_tw_video_thumb/1482033248717131781/pu/img/rHbQ5SUtpxqlLw4x.jpg" width="150" height="200" alt="">
+			</a>
+		</div>
+		
+		<div style="position:absolute;right:1px;top:1px;"><a href="https://twitter.com/qlSrkirBZ4KWcgG/status/1482034292389986306" target="_blank"><img src="https://twivideo.net/templates/images/twil.png" style="width:25px;height:25px;" alt=""></a></div>
+		
+		
+	</div>
+</div>
+<div class="art_li">
+	<div class="item_inner">
+		<div class="item_image">
+			<a href="https://video.twimg.com/ext_tw_video/1481473778563837952/pu/vid/720x1280/76y43PDdiVopu7sh.mp4?tag=12" class="item_link" data-id="1989219" target="_blank">
+			<img src="https://pbs.twimg.com/ext_tw_video_thumb/1481473778563837952/pu/img/aEIgA630Qr_eZPnr.jpg" width="150" height="200" alt="">
+			</a>
+		</div>
+		
+		<div style="position:absolute;right:1px;top:1px;"><a href="https://twitter.com/godofero2/status/1481474134257602566" target="_blank"><img src="https://twivideo.net/templates/images/twil.png" style="width:25px;height:25px;" alt=""></a></div>
+		
+		
+	</div>
+</div>
+<div class="art_li">
+	<div class="item_inner">
+		<div class="item_image">
+			<a href="https://video.twimg.com/ext_tw_video/1233783323677167616/pu/vid/720x1272/cL5400OVHG1m2ygF.mp4?tag=10" class="item_link" data-id="1910947" target="_blank">
+			<img src="https://pbs.twimg.com/ext_tw_video_thumb/1233783323677167616/pu/img/cqVBkaOqe7Z6cJ2t.jpg" width="150" height="200" alt="">
+			</a>
+		</div>
+		
+		<div style="position:absolute;right:1px;top:1px;"><a href="https://twitter.com/oredekachin17/status/1233783390286934016" target="_blank"><img src="https://twivideo.net/templates/images/twil.png" style="width:25px;height:25px;" alt=""></a></div>
+		
+		
+	</div>
+</div>
+<div class="art_li">
+	<div class="item_inner">
+		<div class="item_image">
+			<a href="https://video.twimg.com/ext_tw_video/1481072495927369729/pu/vid/720x1280/XNP7QQV0rWWXxuDB.mp4?tag=12" class="item_link" data-id="1983965" target="_blank">
+			<img src="https://pbs.twimg.com/ext_tw_video_thumb/1481072495927369729/pu/img/f8fq1xoD_Hh5rABd.jpg" width="150" height="200" alt="">
+			</a>
+		</div>
+		
+		<div style="position:absolute;right:1px;top:1px;"><a href="https://twitter.com/godofero2/status/1481072617180512258" target="_blank"><img src="https://twivideo.net/templates/images/twil.png" style="width:25px;height:25px;" alt=""></a></div>
+		
+		
+	</div>
+</div>
+<div class="art_li">
+	<div class="item_inner">
+		<div class="item_image">
+			<a href="https://video.twimg.com/ext_tw_video/1476895811867148291/pu/vid/720x1272/Wc5CL1Ud2QHSHo94.mp4?tag=12" class="item_link" data-id="1910259" target="_blank">
+			<img src="https://pbs.twimg.com/ext_tw_video_thumb/1476895811867148291/pu/img/ELCU2bK6U0sZuiLq.jpg" width="150" height="200" alt="">
+			</a>
+		</div>
+		
+		<div style="position:absolute;right:1px;top:1px;"><a href="https://twitter.com/oredekachin17/status/1476895876044197888" target="_blank"><img src="https://twivideo.net/templates/images/twil.png" style="width:25px;height:25px;" alt=""></a></div>
+		
+		
+	</div>
+</div>
+<div class="art_li">
+	<div class="item_inner">
+		<div class="item_image">
+			<a href="https://video.twimg.com/ext_tw_video/1481960716928438275/pu/vid/1280x720/AFRb_HWUJdl2Uo8u.mp4?tag=12" class="item_link" data-id="1997219" target="_blank">
+			<img src="https://pbs.twimg.com/ext_tw_video_thumb/1481960716928438275/pu/img/ea4cSQnTNsGvo3uB.jpg" width="150" height="200" alt="">
+			</a>
+		</div>
+		
+		<div style="position:absolute;right:1px;top:1px;"><a href="https://twitter.com/godofero2/status/1481960827079237632" target="_blank"><img src="https://twivideo.net/templates/images/twil.png" style="width:25px;height:25px;" alt=""></a></div>
+		
+		
+	</div>
+</div>
+<div class="art_li">
+	<div class="item_inner">
+		<div class="item_image">
+			<a href="https://video.twimg.com/ext_tw_video/1345959177802326023/pu/vid/1280x720/hgGzHx1QVxQTFGu9.mp4?tag=10" class="item_link" data-id="2000297" target="_blank">
+			<img src="https://pbs.twimg.com/ext_tw_video_thumb/1345959177802326023/pu/img/wGtFj0D0POIlLYvI.jpg" width="150" height="200" alt="">
+			</a>
+		</div>
+		
+		<div style="position:absolute;right:1px;top:1px;"><a href="https://twitter.com/soccerlikers1/status/1345960157948256256/" target="_blank"><img src="https://twivideo.net/templates/images/twil.png" style="width:25px;height:25px;" alt=""></a></div>
+		
+		
+	</div>
+</div>
+<div class="art_li">
+	<div class="item_inner">
+		<div class="item_image">
+			<a href="https://video.twimg.com/ext_tw_video/1389687595718914053/pu/vid/1280x720/uURVNAFZbM3zcZJb.mp4?tag=12" class="item_link" data-id="2000298" target="_blank">
+			<img src="https://pbs.twimg.com/ext_tw_video_thumb/1389687595718914053/pu/img/s1RDTvEEBeaVePcb.jpg" width="150" height="200" alt="">
+			</a>
+		</div>
+		
+		<div style="position:absolute;right:1px;top:1px;"><a href="https://twitter.com/kittyxkum/status/1389687619102158851/" target="_blank"><img src="https://twivideo.net/templates/images/twil.png" style="width:25px;height:25px;" alt=""></a></div>
+		
+		
+	</div>
+</div>
+<div class="art_li">
+	<div class="item_inner">
+		<div class="item_image">
+			<a href="https://video.twimg.com/ext_tw_video/1482005556978401284/pu/vid/720x1280/D126l9yI2g1R6YXX.mp4?tag=12" class="item_link" data-id="1997870" target="_blank">
+			<img src="https://pbs.twimg.com/ext_tw_video_thumb/1482005556978401284/pu/img/Da_BT8wZVRU3Ow-K.jpg" width="150" height="200" alt="">
+			</a>
+		</div>
+		
+		<div style="position:absolute;right:1px;top:1px;"><a href="https://twitter.com/qlSrkirBZ4KWcgG/status/1482005657125789700" target="_blank"><img src="https://twivideo.net/templates/images/twil.png" style="width:25px;height:25px;" alt=""></a></div>
+		
+		
+	</div>
+</div>
+		</div>
+	</div>
+
+
+<!-- adspace-->
+
+</div>
+</div>
+
+<script>
+	$(function() {
+		var bri_int = $('.art_li').length;
+		if(bri_int < Number('48496')){$('#read_page').show();}
+	});
+
+<!--
+$("#read_page").click(function() {
+	var offset = $('.grids .art_li').length;
+	var limit = 45;
+	$.ajax({
+		url : "https://twivideo.net/templates/ajax_nextlist.php",
+		type : "POST",
+		data : {offset:offset,limit:limit,tag:'null',type:'0',order:'post_date',le:1000,'ty':'p4'},
+		error : function(XMLHttpRequest, textStatus, errorThrown) {
+		},
+		success : function(data) {
+                $('.grids').append(data);
+ 
+		    $container.masonry('reloadItems');
+		    $container.masonry('layout');
+
+		        $container.imagesLoaded(function() {
+		            $container.masonry({
+		                itemSelector: '.art_li',
+		                gutterWidth: 0,
+		                isAnimated: true
+		            });
+		        });
+
+				var bri_int = $('.art_li').length;
+			if(bri_int < Number(1000)){$('#read_page').show();}
+			else{$('#read_page').hide();return false;}
+
+				if(bri_int < Number(48496)){$('#read_page').show();}
+				else{$('#read_page').hide();return false;}
+				
+		}
+	});
+});
+-->
+	
+</script>
+
+<div id="page_top"><a href="#"></a></div>
+
+
+<footer class="footer">
+		<div class="footer-inner">
+			<div class="footer_bottom">Copyright c <a href="https://twivideo.net/" title="TWIVIDEO" rel="home">TWIVIDEO </a>All Rights Reserved.<a href="/cdn-cgi/l/email-protection#bad7dbd3d694cecdd3cecdd3faddd7dbd3d694d9d5d7"><i class="far fa-envelope"style="font-size:20px;margin-left:10px;margin-right:20px !important;"></i></a><div class="porndude"><a href="https://theporndude.com/ja" target="_blank"><img src="https://twivideo.net/templates/images/tpd-b-24px.png">ThePornDude</a></div></div>
+
+		</div>
+</footer>
+
+
+
+
+
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+jQuery(function() {
+    var pagetop = $('#page_top');   
+    pagetop.hide();
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 100) {  //Display after scrolling 100px
+            pagetop.fadeIn();
+        } else {
+            pagetop.fadeOut();
+        }
+    });
+    pagetop.click(function () {
+        $('body,html').animate({
+            scrollTop: 0
+        }, 500); //Move to the top in 0.5 seconds
+        return false;
+    });
+});
+
+        var $container = $('.grids');
+ 
+        $container.imagesLoaded(function() {
+            $container.masonry({
+                itemSelector: '.art_li',
+                gutterWidth: 0,
+                isAnimated: true,
+		isResizable: true
+            });
+        });
+
+$(window).on('load resize', function() {
+h = $(window).height();
+t = h - 226;
+$(".main_content").css("min-height", t + "px");
+});
+
+<!--
+$(document).on("click", ".item_link", function(){
+var id = $(this).data("id");
+    $.ajax({
+        url : "https://twivideo.net/templates/ajax_link_click.php",
+        type : "POST",
+        data : {post_id:id},
+        error : function(XMLHttpRequest, textStatus, errorThrown) {
+        },
+        success : function(data) {
+        }
+    });
+});
+-->
+
+<!--
+$(document).on("click", ".dist", function(){
+var id = $(this).data("id");
+    $.ajax({
+        url : "https://twivideo.net/templates/ajax_userdata.php",
+        type : "POST",
+        data : {post_id:id},
+        error : function(XMLHttpRequest, textStatus, errorThrown) {
+        },
+        success : function(data) {
+	if(data == 'on'){
+		$('#dist_'+id).css('background-color','rgba( 100, 100, 100, 0.6 )');
+	}else{
+		$('#dist_'+id).css('background-color','rgba( 242, 100, 230, 0.7 )');
+	}
+	
+        }
+    });
+});
+-->
+	
+</script>
+
+<script> lazyload(); </script>
+</body>
+</html>
